@@ -1,31 +1,70 @@
-📍 Android Location Tracker
+# 📍 Android Location Tracker
 
-A simple Android app that demonstrates background location tracking, local data storage, and REST API integration using modern Android development practices.
+A simple Android application that demonstrates **background location tracking**, **local data persistence**, and **REST API integration** using modern Android development practices.
 
-✨ Features
+---
 
-Background Location Tracking
+## ✨ Features
 
-Updates every 5 minutes
+- **Background Location Tracking**
+  - Location updates every 5 minutes
+  - Runs as a foreground service
+  - Continues after app closure and device reboot
+  - Displays updates via Toast messages
 
-Runs as a Foreground Service
+- **Local Database Storage**
+  - Room (SQLite) database
+  - Stores latitude, longitude, and timestamp
+  - Displays location history using RecyclerView
 
-Continues after app is closed or device reboot
+- **API Integration**
+  - Fetches data from JSONPlaceholder API
+  - Uses Retrofit + GSON
+  - Handles network errors gracefully
 
-Shows real-time updates via Toast
+---
 
-Local Database Storage
+## 🛠 Tech Stack
 
-Room (SQLite) database
+- **Language:** Java  
+- **UI:** XML (Material Design 3)  
+- **Database:** Room (SQLite)  
+- **Location Services:** Google Play Services  
+- **Networking:** Retrofit + GSON  
+- **Architecture:** MVVM-inspired  
 
-Stores latitude, longitude, and timestamp
+---
+## 🛠 Project Structure
+app/src/main/java/com/example/locationtracker/
+├── MainActivity.java          # UI controller
+├── LocationService.java       # Background service
+├── LocationEntity.java        # Database model
+├── LocationDao.java          # Database queries
+├── AppDatabase.java          # Room database
+├── LocationAdapter.java      # RecyclerView adapter
+├── ApiModels.java           # API models
+└── BootReceiver.java        # Auto-start receiver
 
-Displays history using RecyclerView
+app/src/main/res/
+├── layout/
+│   ├── activity_main.xml    # Main screen
+│   └── item_location.xml    # List item
+├── drawable/                # Background shapes
+└── values/
+    └── colors.xml           # Color palette
 
-API Integration
+## 🚀 Getting Started
 
-Fetches data from JSONPlaceholder
+### Prerequisites
+- Android Studio (2023.1+ recommended)
+- JDK 11+
+- Android SDK (API 24–34)
+- Physical device or emulator with Google Play Services
 
-Uses Retrofit + GSON
+---
 
-Handles network errors gracefully
+### Installation
+
+```bash
+git clone https://github.com/yourusername/android-location-tracker.git
+cd android-location-tracker
