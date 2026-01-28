@@ -53,8 +53,29 @@ A simple Android application that demonstrates **background location tracking**,
 - **Architecture:** MVVM-inspired  
 
 ---
-## 🛠 Project Structure
-| ![Home](projectStructure.png) |
+## 📂 Project Structure
+
+```text
+app/
+├── src/
+│   └── main/
+│       ├── java/com/example/locationtracker/
+│       │   ├── MainActivity.java        # UI controller
+│       │   ├── LocationService.java     # Background service
+│       │   ├── LocationEntity.java      # Database model
+│       │   ├── LocationDao.java         # Database queries
+│       │   ├── AppDatabase.java         # Room database
+│       │   ├── LocationAdapter.java     # RecyclerView adapter
+│       │   ├── ApiModels.java           # API models
+│       │   └── BootReceiver.java        # Auto-start receiver
+│       │
+│       └── res/
+│           ├── layout/
+│           │   ├── activity_main.xml    # Main screen
+│           │   └── item_location.xml    # List item
+│           ├── drawable/                # Background shapes
+│           └── values/
+│               └── colors.xml           # Color palette
 
 ## 🚀 Getting Started
 
