@@ -6,7 +6,20 @@ A simple Android application that demonstrates **background location tracking**,
 
 ## 🖼️ UI Preview
 
-| ![Home](;ocationUI.jpeg) | ![History]( locationUI1.jpeg) 
+<table>
+  <tr>
+    <td align="center">
+      <img src="locationUI.jpeg" width="250"/>
+      <br/>
+      <b>Home Screen</b>
+    </td>
+    <td align="center">
+      <img src="locationUI1.jpeg" width="250"/>
+      <br/>
+      <b>Location History</b>
+    </td>
+  </tr>
+</table>
 
 > 📌 Screenshots taken from a real Android device.
 
