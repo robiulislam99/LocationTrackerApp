@@ -9,7 +9,7 @@ A simple Android application that demonstrates **background location tracking**,
 <table>
   <tr>
     <td align="center">
-      <img src="locationUI.jpeg" width="250"/>
+      <img src=";ocationUI.jpeg" width="250"/>
       <br/>
       <b>Home Screen</b>
     </td>
