@@ -139,9 +139,10 @@ cd LocationTrackerApp
 -Network errors handled gracefully
 
 ---
-## *👤 Author*
-Md Robiul Islam
-CSE Graduate | Android & Backend Developer
+## 👤 Author
+Md Robiul Islam  
+CSE Graduate | Android & Backend Developer  
 GitHub: https://github.com/robiulislam99
+
 
 
