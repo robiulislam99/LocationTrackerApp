@@ -54,7 +54,7 @@ A simple Android application that demonstrates **background location tracking**,
 
 ---
 ## 📂 Project Structure
-
+```text
 
 app/
 ├── src/
@@ -77,6 +77,7 @@ app/
 │           └── values/
 │               └── colors.xml           # Color palette
 
+```
 ## 🚀 Getting Started
 
 ### Prerequisites
