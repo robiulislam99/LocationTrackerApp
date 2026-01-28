@@ -84,11 +84,64 @@ app/
 - Android Studio (2023.1+ recommended)
 - JDK 11+
 - Android SDK (API 24–34)
-- Physical device or emulator with Google Play Services
+- Physical device or emulator 
 
 ---
 
 ### Installation
+1. **Clone the repository:**
 
 ```bash
-git clone  https://github.com/robiulislam99/LocationTrackerApp.git
+git clone https://github.com/robiulislam99/LocationTrackerApp.git
+cd LocationTrackerApp
+```
+2. Open the project in Android Studio
+3. Let Gradle sync and download dependencies
+4. Connect a device or start an emulator
+5. Run the app
+
+---
+## 🔐 Permissions Required
+-ACCESS_FINE_LOCATION – precise GPS coordinates
+
+-ACCESS_COARSE_LOCATION – approximate location
+
+-ACCESS_BACKGROUND_LOCATION – track location when app is closed
+
+-FOREGROUND_SERVICE – keep service running
+
+-RECEIVE_BOOT_COMPLETED – restart service on reboot
+
+⚠️ Background location must be allowed manually on some Android versions.
+
+---
+
+## 📍 Background Location Flow
+-LocationService runs as a foreground service
+
+-Fetches location every 5 minutes using FusedLocationProvider
+
+-Saves data in Room database (latitude, longitude, timestamp)
+
+-Displays stored locations in RecyclerView
+
+-BootReceiver restarts service after device reboot
+
+---
+
+## 🌐 API Integration
+-Fetches posts from JSONPlaceholder API
+
+-Retrofit handles HTTP requests
+
+-GSON parses JSON responses into model classes
+
+-Network errors handled gracefully
+
+---
+## *👤 Author*
+Md Robiul Islam
+CSE Graduate | Android & Backend Developer
+GitHub: https://github.com/robiulislam99
+
+
