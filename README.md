@@ -55,7 +55,7 @@ A simple Android application that demonstrates **background location tracking**,
 ---
 ## 📂 Project Structure
 
-```text
+
 app/
 ├── src/
 │   └── main/
