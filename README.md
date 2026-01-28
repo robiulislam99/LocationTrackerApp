@@ -4,6 +4,12 @@ A simple Android application that demonstrates **background location tracking**,
 
 ---
 
+## 🖼️ UI Preview
+
+| ![Home](;ocationUI.jpeg) | ![History]( locationUI1.jpeg) 
+
+> 📌 Screenshots taken from a real Android device.
+
 ## ✨ Features
 
 - **Background Location Tracking**
@@ -35,23 +41,7 @@ A simple Android application that demonstrates **background location tracking**,
 
 ---
 ## 🛠 Project Structure
-app/src/main/java/com/example/locationtracker/
-├── MainActivity.java          # UI controller
-├── LocationService.java       # Background service
-├── LocationEntity.java        # Database model
-├── LocationDao.java          # Database queries
-├── AppDatabase.java          # Room database
-├── LocationAdapter.java      # RecyclerView adapter
-├── ApiModels.java           # API models
-└── BootReceiver.java        # Auto-start receiver
-
-app/src/main/res/
-├── layout/
-│   ├── activity_main.xml    # Main screen
-│   └── item_location.xml    # List item
-├── drawable/                # Background shapes
-└── values/
-    └── colors.xml           # Color palette
+| ![Home](projectStructure.png) |
 
 ## 🚀 Getting Started
 
@@ -66,5 +56,4 @@ app/src/main/res/
 ### Installation
 
 ```bash
-git clone https://github.com/yourusername/android-location-tracker.git
-cd android-location-tracker
+git clone  https://github.com/robiulislam99/LocationTrackerApp.git
